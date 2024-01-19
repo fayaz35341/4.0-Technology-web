@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222544;
+    min-height: 100vh;
+}
+
+.technologies-content {
+    width: 85%;
+    max-width: 800px;
+    
+}
+
+.heading {
+    color: #2d9cca;
+    font-family: "Roboto";
+    font-size: 36px;
+}
+
+.description {
+    color: #f1f1f1;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.technologies-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    margin-top: 48px;
+}
+
+.technology-item {
+    color: #2d9cca;
+    font-family: "Roboto";
+    font-size: 16px;
+    border: 1px solid #95cae0;
+    border-radius: 32px;
+    padding: 16px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    list-style-type: none;
+}
